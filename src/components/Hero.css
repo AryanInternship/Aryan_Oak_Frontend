@@ -1,0 +1,45 @@
+/* src/components/Hero.css */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 5%;
+    background: #f9f9f9;
+  }
+  .hero-text {
+    max-width: 50%;
+  }
+  .hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  .hero-text p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  .hero-buttons .btn {
+    padding: 12px 24px;
+    margin-right: 15px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .primary-btn {
+    background: #0D3E7E;
+    color: white;
+    border: none;
+  }
+  .outline-btn {
+    background: white;
+    color: #0D3E7E;
+    border: 2px solid #0D3E7E;
+  }
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .outline-btn:hover{
+    background: #0D3E7E;
+    color: #fff;
+  }

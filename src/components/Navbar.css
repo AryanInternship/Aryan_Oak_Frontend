@@ -1,0 +1,116 @@
+/* src/components/Navbar.css */
+.navbar {
+  background: #0D3E7E;               /* dark blue background */
+  color: white;
+  display: flex;                     /* horizontal layout for logo/links */
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Nav links container */
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/* Each link item */
+.nav-links li {
+  margin: 0 15px;
+}
+
+/* Style the react-router <Link> inside nav-items */
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+/* Language button */
+.lang-btn {
+  background: #FBB040;              /* yellow button */
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Search bar */
+.search-bar {
+  width: 20%;
+  padding: 8px 20px;
+  border-radius: 20px;
+  position: relative;
+  left: 10rem;
+}
+
+/* Search input field */
+.search-input {
+  width: 100%;
+  padding: 10px 40px 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+/* Search icon inside the bar */
+.search-icon {
+  position: absolute;
+  right: -1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: gray;
+}
+
+/* Language dropdown wrapper */
+.lang-dropdown {
+  position: relative;
+}
+
+/* Dropdown menu styling */
+.lang-menu {
+  position: absolute;
+  top: 110%;
+  right: 0;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  list-style: none;
+  padding: 5px 0;
+  margin: 0;
+  width: 120px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  z-index: 100;
+}
+
+/* Dropdown items */
+.lang-menu li {
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* Hover state for dropdown */
+.lang-menu li:hover {
+  background: #f2f2f2;
+}
+
+.logo-link{
+  color: #fff;
+  text-decoration: none;
+
+}

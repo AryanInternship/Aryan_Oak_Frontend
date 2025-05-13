@@ -1,0 +1,62 @@
+/* src/components/HowItWorks.css */
+.how-section {
+    padding: 40px 5%;
+  }
+  .how-section h2 {
+    color: #0D3E7E;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .how-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .steps-list {
+    width: 30%;
+  }
+  .step-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .circle {
+    background: #0D3E7E;
+    color: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  .steps-graphic {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 65%;
+  }
+  .graphic-card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    text-align: center;
+  }
+  .graphic-card i {
+    color: #0D3E7E;
+    margin-bottom: 10px;
+  }
+  .graphic-card p {
+    margin: 0;
+  }
+  .arrow-between {
+    font-size: 1.2rem;
+    color: #0D3E7E;
+    margin: 0 10px;
+  }
+  
