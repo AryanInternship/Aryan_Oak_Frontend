@@ -15,6 +15,10 @@ import AdminLogin from './components/AdminLogin';
 import AdminSignup from './components/AdminSignup';
 import AdminDashboard from './components/AdminDashboard';
 import UserDashboard from './components/UserDashboard';
+import ServicePolicy from './components/ServicePolicy';
+import PrivacyPolicy from './components/PrivacyPolicy';
+import HelpCenter    from './components/HelpCenter';
+import FAQs from './components/FAQs';
 function App() {
   return (
     <>
@@ -42,6 +46,10 @@ function App() {
         <Route path="/admin/signup" element={<AdminSignup />} />
         <Route path="/admin/dashboard" element={<AdminDashboard />} />
 +       <Route path="/dashboard" element={<UserDashboard />} />
+        <Route path="/service-policy"  element={<ServicePolicy />} />
+        <Route path="/privacy-policy"  element={<PrivacyPolicy />} />
+        <Route path="/help"            element={<HelpCenter />} />
+        <Route path="/faqs" element={<FAQs />} />
       </Routes>
     </>
   );
